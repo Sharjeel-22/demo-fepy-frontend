@@ -1,12 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Header from "./Header";
+import SubHeader from "./SubHeader";
+import CarouselFun from "./Carousal";
+import FeaturedCategory from "./FeaturedCategories";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-       
-      </header>
+    <div className="w-full">
+      <Header />
+      <SubHeader />
+      <CarouselFun />
     </div>
   );
 }
