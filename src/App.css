@@ -234,6 +234,26 @@
 .carousel-wrapper {
   height: 200px;
 }
+.featured-category-main {
+  padding: 2rem;
+  background-color: black;
+  color: white;
+  height: 50vh;
+  margin-right: 160px;
+  width: 80vw;
+}
+.box {
+  background-color: #daa520;
+  height: 100px;
+  width: 100px !important;
+}
+.box h3 {
+  text-align: center;
+}
+.slick-slide div {
+  margin: 0 1rem;
+  border-radius: 50%;
+}
 .carousel-content {
 }
 .side-content-item {
